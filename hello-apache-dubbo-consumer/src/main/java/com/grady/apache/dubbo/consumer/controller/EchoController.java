@@ -1,4 +1,4 @@
-package com.grady.apache.dubbo.consume.controller;
+package com.grady.apache.dubbo.consumer.controller;
 
 import com.grady.apache.dubbo.provider.api.EchoService;
 import org.apache.dubbo.config.annotation.Reference;

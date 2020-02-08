@@ -1,6 +1,6 @@
-package com.grady.apache.dubbo.consume.controller;
+package com.grady.apache.dubbo.consumer.controller;
 
-import com.grady.apache.dubbo.consume.service.HelloService;
+import com.grady.apache.dubbo.consumer.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

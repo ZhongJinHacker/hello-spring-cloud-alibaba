@@ -1,4 +1,4 @@
-package com.grady.apache.dubbo.consume;
+package com.grady.apache.dubbo.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
