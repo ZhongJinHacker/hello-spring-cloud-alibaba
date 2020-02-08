@@ -7,6 +7,8 @@ dubbo:
     base-packages: com.grady.apache.dubbo.provider.service.impl
   protocol:
     name: dubbo
-    port: -1
+    port: 20880
+  provider:
+    loadbalance: roundrobin
   registry:
     address: nacos://172.16.5.132:8848
