@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello-dubbo-provider
+
+dubbo:
+  scan:
+    base-package: com.grady.apache.dubbo.provider.service.impl
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://127.0.0.1:8848
